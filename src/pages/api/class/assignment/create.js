@@ -117,6 +117,7 @@ const handler = async (req, res) => {
 
         uploadedFileUrl = data.secure_url;
       } catch (error) {
+        console.log("ERR ::::", error.message);
         error = JSON.parse(JSON.stringify(error));
         return res
           .status(error.status)

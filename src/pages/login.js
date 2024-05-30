@@ -23,9 +23,10 @@ export default LoginPage;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
+
   const { redirect, jc: joinClass, id } = context.query;
 
-  let redirectLink = redirect;
+  let redirectLink = redirect ? redirect : "/";
 
   if (joinClass === "true" && id) {
     redirectLink = `${redirect}?jc=true&id=${id}`;

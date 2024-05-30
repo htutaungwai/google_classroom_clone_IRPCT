@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 export async function middleware(request) {
   const session = await getToken({
     req: request,
-    secret: process.env.SECRET,
   });
 
   const PUBLIC_FILE = /\.(.*)$/;
