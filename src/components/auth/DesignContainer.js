@@ -8,12 +8,12 @@ import shortid from "shortid";
 const textContent = [
   {
     heading: "Welcome to the future of online learning.",
-    text: "Our LMS is the fastest, simplest, and most effective way to teach and learn.",
+    text: "Our Classroom Website is the fastest, simplest, and most effective way to teach and learn.",
   },
 
   {
     heading: "Ready to revolutionize your education?",
-    text: "Our LMS is the ultimate tool for students, teachers, and anyone who wants to improve their skills.",
+    text: "Technology is the ultimate tool for students, teachers, and anyone who wants to improve their skills at IRPCT.",
   },
 
   {
@@ -51,35 +51,7 @@ const DesignContainer = () => {
   return (
     <div className={classes.container}>
       <div className={classes.box}>
-        <div className={classes.emoticons}>
-          <div>
-            <Image
-              width={80}
-              height={80}
-              fill="true"
-              src="/images/extra/open_book.png"
-              alt="pen book"
-            />
-          </div>
-          <div>
-            <Image
-              width={80}
-              height={80}
-              fill="true"
-              src="/images/extra/grinning_face.png"
-              alt="grinning face"
-            />
-          </div>
-          <div>
-            <Image
-              width={80}
-              height={80}
-              fill="true"
-              src="/images/extra/writing_hand.png"
-              alt="writing hand"
-            />
-          </div>
-        </div>
+        <div className={classes.emoticons}></div>
 
         <div className={classes["slider"]}>
           <div

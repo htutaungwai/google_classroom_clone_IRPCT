@@ -11,13 +11,23 @@ const About = () => {
       </header>
       <main className={classes["privacy-policy__main"]}>
         <section className={classes["privacy-policy__section"]}>
-          <h2>Introduction</h2>
+          <h2>IRPC Technological College</h2>
           <p>
-            [ClassZone] (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or
-            &quot;our&quot;) is committed to protecting your privacy. This
-            privacy policy explains how we collect, use, and disclose your
-            personal information when you use our e-learning management system
-            (&quot;Platform&quot;).
+            It is a vocational education institute established by IRPC hi Public
+            Company Limited. Under the Vocational Education Commission Open
+            Conducted teaching on May 1, 1995, conducted teaching The
+            instructors are knowledgeable and able to use modern equipment and
+            teaching materials. Resources together with the shed. The students
+            received an internship in a industrial filling plant with IRPC Group
+            Public Company Limited and PTT Group. With an engineer who is
+            skilled as a teacher This practice makes students who graduated from
+            the Technology College IRPC who have Professional skills that truly
+            meet the needs of the workplace. At present, the college Open the
+            English Language Program (EP) by international students. From
+            Myanmar, Cambodia, Lao PDR, and Vietnam to study further,
+            reinforcing the status of a leading vocational college in the
+            country. With students from abroad Come to study further to raise
+            the level of education to international
           </p>
         </section>
 

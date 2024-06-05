@@ -55,7 +55,7 @@ function HomePage(props) {
   return (
     <>
       <Head>
-        <title>Class Zone</title>
+        <title>Digital Class</title>
         <meta
           name="description"
           content="It is a learning management system which is designed to help teachers create, distribute, and manage assignments, as well as communicate with their students."

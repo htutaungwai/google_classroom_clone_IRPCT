@@ -72,7 +72,13 @@ const AuthForm = (props) => {
         <form className={classes.form} onSubmit={handleSubmit(submitHandler)}>
           <div className={classes["hi_gif"]} />
           <div className={classes.welcomeMessage}>
-            {!isRegister ? <h1>Welcome Back!</h1> : <h1>Welcome!</h1>}
+            {!isRegister ? (
+              <h1>
+                Welcome To <span className={classes["color-red"]}>IRPCT</span>
+              </h1>
+            ) : (
+              <h1>Welcome!</h1>
+            )}
 
             <div className={classes["typing_slider"]}>
               <p>Welcome to ClassZone, Our E-learning platform!</p>
