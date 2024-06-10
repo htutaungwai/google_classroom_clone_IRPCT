@@ -412,7 +412,7 @@ const Call = () => {
                   className={`${classes.joinButton}`}
                   onClick={() => callPeer(idToCall)}
                 >
-                  Join
+                  join
                 </button>
               </div>
             )}
