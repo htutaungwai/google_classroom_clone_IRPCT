@@ -135,8 +135,10 @@ const handler = async (req, res) => {
         formData.append("resource_type", "raw");
         formData.append("folder", uploadPath);
         formData.append("upload_preset", process.env.CLOUDINARY_UPLOAD_PRESET);
+
         console.log(process.env.UPLOAD_CLOUDINARY_URL);
         console.log(process.env.CLOUDINARY_UPLOAD_PRESET);
+        console.log(config);
 
         const { data } = await axios.post(
           process.env.UPLOAD_CLOUDINARY_URL,
@@ -152,6 +154,7 @@ const handler = async (req, res) => {
         uploadedFileUrl = data.secure_url;
       } catch (error) {
         console.log("ERROR PHASEE");
+
         error = JSON.parse(JSON.stringify(error));
         return res
           .status(error.status)

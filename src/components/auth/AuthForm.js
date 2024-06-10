@@ -70,7 +70,7 @@ const AuthForm = (props) => {
     <div className={classes.container}>
       <div className={classes.auth}>
         <form className={classes.form} onSubmit={handleSubmit(submitHandler)}>
-          <div className={classes["hi_gif"]} />
+          {/* <div className={classes["hi_gif"]} /> */}
           <div className={classes.welcomeMessage}>
             {!isRegister ? (
               <h1>
