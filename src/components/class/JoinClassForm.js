@@ -56,7 +56,7 @@ const JoinClassForm = (props) => {
         }}
       >
         <div className={classes.modal}>
-          <h2>Join class</h2>
+          <h2>Join Class</h2>
           <form
             className={classes.form}
             id="joinClass-form"
