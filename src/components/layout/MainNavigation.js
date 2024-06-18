@@ -140,10 +140,10 @@ const MainNavigation = () => {
                       >
                         <ul>
                           <li onClick={() => handleJoinClassClick(true)}>
-                            Join class
+                            เข้าร่วมห้องเรียน
                           </li>
                           <li onClick={() => handleAddClassClick(true)}>
-                            Create class
+                            สร้างห้องเรียน
                           </li>
                         </ul>
                       </div>

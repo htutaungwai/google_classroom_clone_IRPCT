@@ -32,19 +32,19 @@ const Sidebar = (props) => {
         <ul className={classes["list"]}>
           <Link href={`/`} onClick={() => toggleSidebar(false)}>
             <li className={classes["list-item"]}>
-              <div>Home</div>
+              <div>หน้าหลัก</div>
             </li>
           </Link>
 
           <Link href={`/about`} onClick={() => toggleSidebar(false)}>
             <li className={classes["list-item"]}>
-              <div>About</div>
+              <div>เกียวกับเรา</div>
             </li>
           </Link>
 
           <Link href={`/contactus`} onClick={() => toggleSidebar(false)}>
             <li className={classes["list-item"]}>
-              <div>Contact Us</div>
+              <div>ติดตอเรา</div>
             </li>
           </Link>
         </ul>
@@ -58,7 +58,7 @@ const Sidebar = (props) => {
             }}
           >
             <li className={classes["list-item"]}>
-              <div>Logout</div>
+              <div>ออกระบบ ↩</div>
             </li>
           </div>
         )}
